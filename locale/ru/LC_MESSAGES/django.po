@@ -855,12 +855,12 @@ msgstr "О компании"
 #: pages/models.py:20 templates/base.html:156 templates/base.html:235
 #: templates/base.html:240 templates/leads/lead_form.html:83
 #: templates/pages/about.html:28 templates/pages/catalog.html:170
-#: templates/pages/contacts.html:109 templates/pages/home.html:46
+#: templates/pages/contacts.html:109 templates/pages/home.html:45
 msgid "Контакти"
 msgstr "Контакты"
 
 #: pages/models.py:21 templates/base.html:220 templates/pages/catalog.html:47
-#: templates/pages/home.html:58
+#: templates/pages/home.html:79
 msgid "Продукція"
 msgstr "Продукция"
 
@@ -1051,7 +1051,7 @@ msgstr ""
 
 #: pages/models.py:189 templates/base.html:102 templates/base.html:114
 #: templates/base.html:154 templates/base.html:233
-#: templates/pages/home.html:276
+#: templates/pages/home.html:373
 msgid "Партнери"
 msgstr "Партнёры"
 
@@ -1165,7 +1165,7 @@ msgid "Каталог"
 msgstr "Каталог"
 
 #: templates/base.html:100 templates/base.html:112 templates/base.html:152
-#: templates/base.html:223 templates/pages/home.html:164
+#: templates/base.html:223
 msgid "Сфери застосування"
 msgstr "Сферы применения"
 
@@ -1187,7 +1187,7 @@ msgid "Каталог обладнання"
 msgstr "Каталог оборудования"
 
 #: templates/base.html:224 templates/pages/catalog.html:36
-#: templates/pages/home.html:264
+#: templates/pages/home.html:361
 msgid "Завантажити каталог"
 msgstr "Скачать каталог"
 
@@ -1573,8 +1573,8 @@ msgstr "Сферы"
 msgid "застосування"
 msgstr "применения"
 
-#: templates/pages/about.html:264 templates/pages/home.html:176
-#: templates/pages/products.html:51 templates/pages/products.html:133
+#: templates/pages/about.html:264 templates/pages/products.html:51
+#: templates/pages/products.html:133
 msgid "Нафтогазова галузь"
 msgstr "Нефтегазовая отрасль"
 
@@ -1584,54 +1584,52 @@ msgid ""
 "з агресивними середовищами при високих температурах і тисках."
 msgstr ""
 
-#: templates/pages/about.html:274 templates/pages/home.html:186
+#: templates/pages/about.html:274 templates/pages/home.html:238
 #: templates/pages/products.html:77
 msgid "Хімічна промисловість"
 msgstr "Химическая промышленность"
 
-#: templates/pages/about.html:276 templates/pages/home.html:188
+#: templates/pages/about.html:276
 msgid ""
 "Спеціалізовані теплообмінники для хімічних реакторів, дистиляційних колон, "
 "охолодження та нагрівання хімічних речовин."
 msgstr ""
 
-#: templates/pages/about.html:284 templates/pages/home.html:196
-#: templates/pages/products.html:210
+#: templates/pages/about.html:284 templates/pages/products.html:210
 msgid "Енергетика"
 msgstr "Энергетика"
 
-#: templates/pages/about.html:286 templates/pages/home.html:198
+#: templates/pages/about.html:286
 msgid ""
 "Теплообмінне обладнання для ТЕС, АЕС, когенераційних установок, системи "
 "охолодження турбін та генераторів."
 msgstr ""
 
-#: templates/pages/about.html:294 templates/pages/home.html:206
+#: templates/pages/about.html:294
 msgid "Металургія"
 msgstr "Металлургия"
 
-#: templates/pages/about.html:296 templates/pages/home.html:208
+#: templates/pages/about.html:296
 msgid ""
 "Охолодження металургійних печей, утилізація тепла, системи охолодження "
 "доменних газів та прокатних станів."
 msgstr ""
 
-#: templates/pages/about.html:304 templates/pages/home.html:216
-#: templates/pages/products.html:103
+#: templates/pages/about.html:304 templates/pages/products.html:103
 msgid "Харчова промисловість"
 msgstr "Пищевая промышленность"
 
-#: templates/pages/about.html:306 templates/pages/home.html:218
+#: templates/pages/about.html:306
 msgid ""
 "Пастеризатори, охолоджувачі, випарники для молочної, пивної та інших галузей "
 "харчової промисловості."
 msgstr ""
 
-#: templates/pages/about.html:314 templates/pages/home.html:226
+#: templates/pages/about.html:314
 msgid "Морське обладнання"
 msgstr "Морское оборудование"
 
-#: templates/pages/about.html:316 templates/pages/home.html:228
+#: templates/pages/about.html:316
 msgid ""
 "Теплообмінники для суднових двигунів, опріснювальних установок, систем "
 "кондиціонування на морських платформах."
@@ -1696,7 +1694,7 @@ msgid ""
 msgstr ""
 
 #: templates/pages/about.html:393 templates/pages/catalog.html:37
-#: templates/pages/home.html:48 templates/pages/products.html:28
+#: templates/pages/home.html:47 templates/pages/products.html:28
 #: templates/pages/products.html:411
 msgid "Розрахунок теплообмінника"
 msgstr "Расчёт теплообменника"
@@ -2022,8 +2020,8 @@ msgid ""
 "кожухотрубні, АПО, калорифери та комплектуючі."
 msgstr ""
 
-#: templates/pages/catalog.html:30 templates/pages/home.html:40
-#: templates/pages/home.html:61 templates/pages/products.html:349
+#: templates/pages/catalog.html:30 templates/pages/home.html:82
+#: templates/pages/products.html:349
 msgid "обладнання"
 msgstr "оборудование"
 
@@ -2039,8 +2037,8 @@ msgstr "Наша"
 msgid "продукція"
 msgstr "продукция"
 
-#: templates/pages/catalog.html:74 templates/pages/home.html:293
-#: templates/pages/home.html:306 templates/pages/home.html:332
+#: templates/pages/catalog.html:74 templates/pages/home.html:390
+#: templates/pages/home.html:403 templates/pages/home.html:429
 #: templates/pages/products.html:56 templates/pages/products.html:69
 #: templates/pages/products.html:82 templates/pages/products.html:95
 #: templates/pages/products.html:108 templates/pages/products.html:121
@@ -2067,10 +2065,10 @@ msgstr "Преимущества"
 msgid "Галузі застосування"
 msgstr "Отрасли применения"
 
-#: templates/pages/catalog.html:137 templates/pages/home.html:77
-#: templates/pages/home.html:92 templates/pages/home.html:107
-#: templates/pages/home.html:122 templates/pages/home.html:137
-#: templates/pages/home.html:152
+#: templates/pages/catalog.html:137 templates/pages/home.html:98
+#: templates/pages/home.html:113 templates/pages/home.html:128
+#: templates/pages/home.html:143 templates/pages/home.html:158
+#: templates/pages/home.html:173
 msgid "Замовити розрахунок"
 msgstr "Заказать расчёт"
 
@@ -2174,170 +2172,395 @@ msgstr "Adiabatic - Энергетическое оборудование"
 
 #: templates/pages/home.html:6
 msgid ""
-"Професійні рішення для теплообміну. Розрахунок теплообмінників безкоштовно. "
-"Енергетичне обладнання для промисловості."
+"Галузеві рішення та спеціалізація на теплообмінному обладнанні: проєктування, "
+"збирання та постачання для технологічних процесів."
 msgstr ""
+"Отраслевые решения и специализация на теплообменном оборудовании: "
+"проектирование, сборка и поставка для технологических процессов."
 
 #: templates/pages/home.html:39
-msgid "Енергетичне"
-msgstr "Энергетическое"
+msgid "Галузеві рішення та наша спеціалізація"
+msgstr "Отраслевые решения и наша специализация"
 
-#: templates/pages/home.html:43
-msgid "і сервісне обслуговування"
-msgstr "и сервисное обслуживание"
+#: templates/pages/home.html:42
+msgid ""
+"Проєктування, збирання та постачання теплообмінного обладнання для "
+"технологічних процесів різної складності."
+msgstr ""
+"Проектирование, сборка и поставка теплообменного оборудования для "
+"технологических процессов различной сложности."
 
-#: templates/pages/home.html:47
+#: templates/pages/home.html:57
+msgid "Наш підхід до виробництва"
+msgstr "Наш подход к производству"
+
+#: templates/pages/home.html:62
+msgid ""
+"Ми беремо на себе відповідальність за підсумковий продукт і його відповідність "
+"вашому ТЗ. Наша ключова спеціалізація — точний теплофізичний розрахунок та "
+"вузлове збирання розбірних пластинчастих теплообмінників."
+msgstr ""
+"Мы берём на себя ответственность за итоговый продукт и его соответствие вашему "
+"ТЗ. Наша ключевая специализация — точный теплофизический расчёт и узловая "
+"сборка разборных пластинчатых теплообменников."
+
+#: templates/pages/home.html:67
+msgid ""
+"Виготовлення самих комплектуючих (штампування пластин, відливання ущільнень) "
+"ми довіряємо вузькопрофільним світовим заводам, з якими у нас вибудовані прямі "
+"логістичні канали. А фінальне збирання, опресовування та контроль якості ми "
+"здійснюємо власними силами. Це дозволяє нам не закладати в ціну обладнання "
+"амортизацію величезних цехів, пропонуючи замовнику чесну вартість та "
+"гарантовану надійність."
+msgstr ""
+"Изготовление самих комплектующих (штамповка пластин, литьё уплотнений) мы "
+"доверяем узкоспециализированным мировым заводам, с которыми выстроены прямые "
+"логистические каналы. А финальную сборку, опрессовку и контроль качества мы "
+"выполняем собственными силами. Это позволяет нам не закладывать в цену "
+"оборудования амортизацию гигантских цехов, предлагая заказчику честную "
+"стоимость и гарантированную надёжность."
+
+#: templates/pages/home.html:46
 msgid "Про нас"
 msgstr "О нас"
 
-#: templates/pages/home.html:60
+#: templates/pages/home.html:81
 msgid "Промислове"
 msgstr "Промышленное"
 
-#: templates/pages/home.html:71
+#: templates/pages/home.html:92
 msgid "Оребрені труби"
 msgstr "Оребрённые трубы"
 
-#: templates/pages/home.html:74
+#: templates/pages/home.html:95
 msgid "Високоефективні оребрені труби для теплообмінного обладнання"
 msgstr "Высокоэффективные оребрённые трубы для теплообменного оборудования"
 
-#: templates/pages/home.html:86
+#: templates/pages/home.html:107
 msgid "АВО (Апарати повітряного охолодження)"
 msgstr "АВО (Аппараты воздушного охлаждения)"
 
-#: templates/pages/home.html:89
+#: templates/pages/home.html:110
 msgid "Надійні апарати повітряного охолодження для промислових процесів"
 msgstr "Надёжные аппараты воздушного охлаждения для промышленных процессов"
 
-#: templates/pages/home.html:101
+#: templates/pages/home.html:122
 msgid "Кожухотрубні теплообмінники"
 msgstr "Кожухотрубные теплообменники"
 
-#: templates/pages/home.html:104
+#: templates/pages/home.html:125
 msgid "Спеціалізовані теплообмінники для різних промислових застосувань"
 msgstr "Специализированные теплообменники для различных промышленных применений"
 
-#: templates/pages/home.html:116
+#: templates/pages/home.html:137
 msgid "Утилізатори тепла димових газів"
 msgstr "Утилизаторы тепла дымовых газов"
 
-#: templates/pages/home.html:119
+#: templates/pages/home.html:140
 msgid "Ефективні системи утилізації тепла для економії енергії"
 msgstr "Эффективные системы утилизации тепла для экономии энергии"
 
-#: templates/pages/home.html:131
+#: templates/pages/home.html:152
 msgid "Пластинчаті теплообмінники"
 msgstr "Пластинчатые теплообменники"
 
-#: templates/pages/home.html:134
+#: templates/pages/home.html:155
 msgid "Компактні та ефективні пластинчаті теплообмінники"
 msgstr "Компактные и эффективные пластинчатые теплообменники"
 
-#: templates/pages/home.html:146
+#: templates/pages/home.html:167
 msgid "Спеціальні рішення"
 msgstr "Специальные решения"
 
-#: templates/pages/home.html:149
+#: templates/pages/home.html:170
 msgid "Індивідуальні рішення для унікальних промислових задач"
 msgstr "Индивидуальные решения для уникальных промышленных задач"
 
-#: templates/pages/home.html:166 templates/pages/products.html:21
+#: templates/pages/home.html:185
+msgid "Галузі застосування та підбір обладнання"
+msgstr "Отрасли применения и подбор оборудования"
+
+#: templates/pages/home.html:193
+msgid "Нафтогазова та нафтохімічна галузь"
+msgstr "Нефтегазовая и нефтехимическая отрасль"
+
+#: templates/pages/home.html:195 templates/pages/home.html:210
+#: templates/pages/home.html:225 templates/pages/home.html:240
+#: templates/pages/home.html:255
+msgid "Задачі"
+msgstr "Задачи"
+
+#: templates/pages/home.html:196
+msgid ""
+"Робота з агресивними середовищами при екстремальних температурах та високому "
+"тиску."
+msgstr ""
+"Работа с агрессивными средами при экстремальных температурах и высоком "
+"давлении."
+
+#: templates/pages/home.html:199 templates/pages/home.html:214
+#: templates/pages/home.html:229 templates/pages/home.html:244
+#: templates/pages/home.html:259
+msgid "Наші рішення"
+msgstr "Наши решения"
+
+#: templates/pages/home.html:200
+msgid ""
+"Постачання зварних блочних та кожухотрубних теплообмінників для конденсації "
+"парів, підігріву сирої нафти, регенерації розчинників, а також охолоджувачів "
+"для компресорних станцій."
+msgstr ""
+"Поставка сварных блочных и кожухотрубных теплообменников для конденсации "
+"паров, подогрева сырой нефти, регенерации растворителей, а также охладителей "
+"для компрессорных станций."
+
+#: templates/pages/home.html:208
+msgid "Енергетика (ТЕС, ТЕЦ) та ЖКГ"
+msgstr "Энергетика (ТЭС, ТЭЦ) и ЖКХ"
+
+#: templates/pages/home.html:211
+msgid ""
+"Забезпечення стабільного теплопостачання та безпека в контурах генерації."
+msgstr ""
+"Обеспечение стабильного теплоснабжения и безопасность в контурах генерации."
+
+#: templates/pages/home.html:215
+msgid ""
+"Вузлове збирання розбірних пластинчастих апаратів для теплових пунктів "
+"(ІТП/ЦТП), а також постачання надійних кожухотрубних підігрівачів мережевої "
+"води та маслоохолоджувачів для парових і газових турбін."
+msgstr ""
+"Узловая сборка разборных пластинчатых аппаратов для тепловых пунктов "
+"(ИТП/ЦТП), а также поставка надёжных кожухотрубных подогревателей сетевой "
+"воды и маслоохладителей для паровых и газовых турбин."
+
+#: templates/pages/home.html:223
+msgid "Металургія та важке машинобудування"
+msgstr "Металлургия и тяжёлое машиностроение"
+
+#: templates/pages/home.html:226
+msgid ""
+"Охолодження технологічних рідин та утилізація тепла в умовах безперервного "
+"виробництва."
+msgstr ""
+"Охлаждение технологических жидкостей и утилизация тепла в условиях "
+"непрерывного производства."
+
+#: templates/pages/home.html:230
+msgid ""
+"Системи охолодження гартувальних рідин, гідравлічних олив та емульсій на "
+"прокатних станах (на базі пластинчастих апаратів), а також спеціалізовані "
+"зварні теплообмінники для охолодження газів і печей."
+msgstr ""
+"Системы охлаждения закалочных жидкостей, гидравлических масел и эмульсий на "
+"прокатных станах (на базе пластинчатых аппаратов), а также специализированные "
+"сварные теплообменники для охлаждения газов и печей."
+
+#: templates/pages/home.html:241
+msgid ""
+"Безпечний теплообмін у процесах із леткими, токсичними або висококорозійними "
+"речовинами."
+msgstr ""
+"Безопасный теплообмен в процессах с летучими, токсичными или высококоррозийными "
+"веществами."
+
+#: templates/pages/home.html:245
+msgid ""
+"Повністю зварні теплообмінники (без еластомерних ущільнень) та апарати зі "
+"спеціальних сплавів (Hastelloy, титан) для реакторів і дистиляційних колон."
+msgstr ""
+"Полностью сварные теплообменники (без эластомерных уплотнений) и аппараты из "
+"специальных сплавов (Hastelloy, титан) для реакторов и ректификационных колонн."
+
+#: templates/pages/home.html:253
+msgid "Харчова та фармацевтична промисловість"
+msgstr "Пищевая и фармацевтическая промышленность"
+
+#: templates/pages/home.html:256
+msgid ""
+"Суворе дотримання санітарних норм (CIP-мийка) та робота з в'язкими "
+"продуктами."
+msgstr ""
+"Строгое соблюдение санитарных норм (CIP-мойка) и работа с вязкими продуктами."
+
+#: templates/pages/home.html:260
+msgid ""
+"Розбірні пластинчасті пастеризатори для напоїв, а також кожухотрубні "
+"(трубчасті) теплообмінники для продуктів із високою в'язкістю. Використовується "
+"виключно санітарна нержавіюча сталь AISI 316L."
+msgstr ""
+"Разборные пластинчатые пастеризаторы для напитков, а также кожухотрубные "
+"(трубчатые) теплообменники для продуктов с высокой вязкостью. Используется "
+"исключительно санитарная нержавеющая сталь AISI 316L."
+
+#: templates/pages/home.html:272
+msgid "Типові задачі, які ми вирішуємо"
+msgstr "Типовые задачи, которые мы решаем"
+
+#: templates/pages/home.html:279
+msgid "Заміна застарілого обладнання"
+msgstr "Замена устаревшего оборудования"
+
+#: templates/pages/home.html:281
+msgid ""
+"Підбір пластинчастих апаратів на заміну громіздким кожухотрубним "
+"теплообмінникам зі збереженням або збільшенням теплової потужності."
+msgstr ""
+"Подбор пластинчатых аппаратов на замену громоздким кожухотрубным "
+"теплообменникам с сохранением или увеличением тепловой мощности."
+
+#: templates/pages/home.html:287
+msgid "Розширення виробництва"
+msgstr "Расширение производства"
+
+#: templates/pages/home.html:289
+msgid ""
+"Інтеграція додаткових контурів охолодження/нагрівання в існуючі технологічні "
+"лінії без зупинки основного циклу."
+msgstr ""
+"Интеграция дополнительных контуров охлаждения/нагрева в существующие "
+"технологические линии без остановки основного цикла."
+
+#: templates/pages/home.html:295
+msgid "Імпортозаміщення та сервіс"
+msgstr "Импортозамещение и сервис"
+
+#: templates/pages/home.html:297
+msgid ""
+"Підбір аналогів для обладнання брендів, що пішли з ринку, розрахунок та "
+"постачання пакетів пластин і ущільнень для сервісного обслуговування."
+msgstr ""
+"Подбор аналогов для оборудования брендов, ушедших с рынка, расчёт и поставка "
+"комплектов пластин и уплотнений для сервисного обслуживания."
+
+#: templates/pages/home.html:318
+msgid "Робочий тиск"
+msgstr "Рабочее давление"
+
+#: templates/pages/home.html:319
+msgid "до 25 бар."
+msgstr "до 25 бар."
+
+#: templates/pages/home.html:322
+msgid "Типи середовищ"
+msgstr "Типы сред"
+
+#: templates/pages/home.html:323
+msgid ""
+"Вода, пара, оливи, гліколі, агресивні хімічні розчини, харчові середовища."
+msgstr ""
+"Вода, пар, масла, гликоли, агрессивные химические растворы, пищевые среды."
+
+#: templates/pages/home.html:326
+msgid "Матеріали пластин"
+msgstr "Материалы пластин"
+
+#: templates/pages/home.html:327
+msgid "AISI 304, AISI 316L, Titan, SMO 254."
+msgstr "AISI 304, AISI 316L, титан, SMO 254."
+
+#: templates/pages/home.html:315
+msgid ""
+"від -30°C до +200°C (залежно від типу ущільнень: EPDM, NBR, Viton)."
+msgstr ""
+"от -30°C до +200°C (в зависимости от типа уплотнений: EPDM, NBR, Viton)."
+
+#: templates/pages/products.html:21
 msgid "Галузі які ми"
 msgstr "Отрасли, которые мы"
 
-#: templates/pages/home.html:167 templates/pages/products.html:22
+#: templates/pages/products.html:22
 msgid "обслуговуємо"
 msgstr "обслуживаем"
 
-#: templates/pages/home.html:178
-msgid ""
-"Теплообмінники для нафтопереробки, газопереробки, хімічних процесів. Робота "
-"з агресивними середовищами при високих температурах та тисках."
-msgstr ""
-
-#: templates/pages/home.html:240
+#: templates/pages/home.html:337
 msgid "Документи"
 msgstr "Документы"
 
-#: templates/pages/home.html:242
+#: templates/pages/home.html:339
 msgid "Корисні"
 msgstr "Полезные"
 
-#: templates/pages/home.html:243
+#: templates/pages/home.html:340
 msgid "матеріали"
 msgstr "материалы"
 
-#: templates/pages/home.html:251
+#: templates/pages/home.html:348
 msgid "Опитувальний лист"
 msgstr "Опросный лист"
 
-#: templates/pages/home.html:253
+#: templates/pages/home.html:350
 msgid "Заповніть опитувальний лист для точного розрахунку теплообмінника"
 msgstr "Заполните опросный лист для точного расчёта теплообменника"
 
-#: templates/pages/home.html:255
+#: templates/pages/home.html:352
 msgid "Завантажити"
 msgstr "Скачать"
 
-#: templates/pages/home.html:260
+#: templates/pages/home.html:357
 msgid "Каталог продукції"
 msgstr "Каталог продукции"
 
-#: templates/pages/home.html:262
+#: templates/pages/home.html:359
 msgid "Повний каталог нашої продукції з технічними характеристиками"
 msgstr "Полный каталог нашей продукции с техническими характеристиками"
 
-#: templates/pages/home.html:278
+#: templates/pages/home.html:375
 msgid "Наші ключові"
 msgstr "Наши ключевые"
 
-#: templates/pages/home.html:279
+#: templates/pages/home.html:376
 msgid "партнери"
 msgstr "партнёры"
 
-#: templates/pages/home.html:288 templates/pages/partners.html:51
+#: templates/pages/home.html:385 templates/pages/partners.html:51
 msgid "Монтажні організації"
 msgstr "Монтажные организации"
 
-#: templates/pages/home.html:290
+#: templates/pages/home.html:387
 msgid ""
 "Співпрацюємо з професійними монтажними компаніями для якісного встановлення "
 "обладнання"
 msgstr ""
+"Сотрудничаем с профессиональными монтажными организациями для качественной "
+"установки оборудования."
 
-#: templates/pages/home.html:301 templates/pages/partners.html:64
+#: templates/pages/home.html:398 templates/pages/partners.html:64
 #: templates/pages/partners.html:270
 msgid "Проєктні інститути"
 msgstr "Проектные институты"
 
-#: templates/pages/home.html:303
+#: templates/pages/home.html:400
 msgid ""
 "Партнерство з провідними проєктними та інжиніринговими компаніями України"
 msgstr ""
+"Партнёрство с ведущими проектными и инжиниринговыми компаниями Украины."
 
-#: templates/pages/home.html:314 templates/pages/partners.html:77
+#: templates/pages/home.html:411 templates/pages/partners.html:77
 msgid "Торгові агенти"
 msgstr "Торговые агенты"
 
-#: templates/pages/home.html:316
+#: templates/pages/home.html:413
 msgid ""
 "Розвинена мережа торгових агентів по всій Україні з вигідними умовами "
 "співпраці"
 msgstr ""
+"Развитая сеть торговых агентов по всей Украине с выгодными условиями "
+"сотрудничества."
 
-#: templates/pages/home.html:319 templates/pages/partners.html:82
+#: templates/pages/home.html:416 templates/pages/partners.html:82
 msgid "Стати агентом"
 msgstr "Стать агентом"
 
-#: templates/pages/home.html:327 templates/pages/partners.html:90
+#: templates/pages/home.html:424 templates/pages/partners.html:90
 msgid "Промислові підприємства"
 msgstr "Промышленные предприятия"
 
-#: templates/pages/home.html:329
+#: templates/pages/home.html:426
 msgid ""
 "Довготривалі партнерські відносини з великими промисловими підприємствами"
 msgstr ""
+"Долгосрочные партнёрские отношения с крупными промышленными предприятиями."
 
 #: templates/pages/partners.html:4 templates/pages/partners.html:5
 msgid "Партнери - Adiabatic"
@@ -2951,7 +3174,7 @@ msgstr ""
 msgid "Виробництво: 6 млн т сталі/рік"
 msgstr "Производство: 6 млн т стали/год"
 
-#: templates/pages/products.html:346
+#: templates/pages/home.html:309 templates/pages/products.html:346
 msgid "Технічні можливості"
 msgstr "Технические возможности"
 
@@ -2959,7 +3182,7 @@ msgstr "Технические возможности"
 msgid "Параметри"
 msgstr "Параметры"
 
-#: templates/pages/products.html:357
+#: templates/pages/home.html:314 templates/pages/products.html:357
 msgid "Температура"
 msgstr "Температура"
 

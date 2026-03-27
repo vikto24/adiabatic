@@ -3,7 +3,7 @@
 
 {% block title %}{% trans "Adiabatic - Енергетичне обладнання та теплообмінники" %}{% endblock %}
 {% block og_title %}{% trans "Adiabatic - Енергетичне обладнання" %}{% endblock %}
-{% block og_description %}{% trans "Професійні рішення для теплообміну. Розрахунок теплообмінників безкоштовно. Енергетичне обладнання для промисловості." %}{% endblock %}
+{% block og_description %}{% trans "Галузеві рішення та спеціалізація на теплообмінному обладнанні: проєктування, збирання та постачання для технологічних процесів." %}{% endblock %}
 
 {% block page_css %}
 <link rel="stylesheet" href="/static/css/pages/home.css">
@@ -36,17 +36,38 @@
                 <img src="/static/images/logo.png" alt="ADIABATIC Logo" class="hero-logo">
             </div>
             <h1 class="hero-title">
-                {% trans "Енергетичне" %}
-                <span class="hero-accent">{% trans "обладнання" %}</span>
+                {% trans "Галузеві рішення та наша спеціалізація" %}
             </h1>
             <p class="hero-description">
-                {% trans "і сервісне обслуговування" %}
+                {% trans "Проєктування, збирання та постачання теплообмінного обладнання для технологічних процесів різної складності." %}
             </p>
             <div class="hero-actions">
                 <a href="{% url 'pages:contacts' %}" class="btn btn--primary btn--large">{% trans "Контакти" %}</a>
                 <a href="{% url 'pages:about' %}" class="btn btn--secondary btn--large">{% trans "Про нас" %}</a>
                 <a href="{% url 'leads:submit' %}" class="btn btn--accent btn--large">{% trans "Розрахунок теплообмінника" %}</a>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our approach to production -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">{% trans "Наш підхід до виробництва" %}</h2>
+            <div class="section-underline"></div>
+        </div>
+        <div>
+            <p>
+                {% blocktrans trimmed %}
+                Ми беремо на себе відповідальність за підсумковий продукт і його відповідність вашому ТЗ. Наша ключова спеціалізація — точний теплофізичний розрахунок та вузлове збирання розбірних пластинчастих теплообмінників.
+                {% endblocktrans %}
+            </p>
+            <p>
+                {% blocktrans trimmed %}
+                Виготовлення самих комплектуючих (штампування пластин, відливання ущільнень) ми довіряємо вузькопрофільним світовим заводам, з якими у нас вибудовані прямі логістичні канали. А фінальне збирання, опресовування та контроль якості ми здійснюємо власними силами. Це дозволяє нам не закладати в ціну обладнання амортизацію величезних цехів, пропонуючи замовнику чесну вартість та гарантовану надійність.
+                {% endblocktrans %}
+            </p>
         </div>
     </div>
 </section>
@@ -157,15 +178,11 @@
     </div>
 </section>
 
-<!-- Applications Section (Сфери застосування) -->
+<!-- Industries: application areas and equipment selection -->
 <section class="section">
     <div class="container">
         <div class="section-header">
-            <p class="section-subtitle">{% trans "Сфери застосування" %}</p>
-            <h2 class="section-title">
-                {% trans "Галузі які ми" %}
-                <span class="section-accent">{% trans "обслуговуємо" %}</span>
-            </h2>
+            <h2 class="section-title">{% trans "Галузі застосування та підбір обладнання" %}</h2>
             <div class="section-underline"></div>
         </div>
 
@@ -173,19 +190,14 @@
             <div class="card">
                 <div class="card-image">🛢️</div>
                 <div class="card-content">
-                    <h3 class="card-title">{% trans "Нафтогазова галузь" %}</h3>
-                    <p class="card-description">
-                        {% trans "Теплообмінники для нафтопереробки, газопереробки, хімічних процесів. Робота з агресивними середовищами при високих температурах та тисках." %}
+                    <h3 class="card-title">{% trans "Нафтогазова та нафтохімічна галузь" %}</h3>
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Задачі" %}:</span>
+                        {% trans "Робота з агресивними середовищами при екстремальних температурах та високому тиску." %}
                     </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-image">🏭</div>
-                <div class="card-content">
-                    <h3 class="card-title">{% trans "Хімічна промисловість" %}</h3>
-                    <p class="card-description">
-                        {% trans "Спеціалізовані теплообмінники для хімічних реакторів, дистиляційних колон, охолодження та нагрівання хімічних речовин." %}
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Наші рішення" %}:</span>
+                        {% trans "Постачання зварних блочних та кожухотрубних теплообмінників для конденсації парів, підігріву сирої нафти, регенерації розчинників, а також охолоджувачів для компресорних станцій." %}
                     </p>
                 </div>
             </div>
@@ -193,19 +205,44 @@
             <div class="card">
                 <div class="card-image">⚡</div>
                 <div class="card-content">
-                    <h3 class="card-title">{% trans "Енергетика" %}</h3>
-                    <p class="card-description">
-                        {% trans "Теплообмінне обладнання для ТЕС, АЕС, когенераційних установок, системи охолодження турбін та генераторів." %}
+                    <h3 class="card-title">{% trans "Енергетика (ТЕС, ТЕЦ) та ЖКГ" %}</h3>
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Задачі" %}:</span>
+                        {% trans "Забезпечення стабільного теплопостачання та безпека в контурах генерації." %}
+                    </p>
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Наші рішення" %}:</span>
+                        {% trans "Вузлове збирання розбірних пластинчастих апаратів для теплових пунктів (ІТП/ЦТП), а також постачання надійних кожухотрубних підігрівачів мережевої води та маслоохолоджувачів для парових і газових турбін." %}
                     </p>
                 </div>
             </div>
 
             <div class="card">
-                <div class="card-image">🏗️</div>
+                <div class="card-image">🏭</div>
                 <div class="card-content">
-                    <h3 class="card-title">{% trans "Металургія" %}</h3>
-                    <p class="card-description">
-                        {% trans "Охолодження металургійних печей, утилізація тепла, системи охолодження доменних газів та прокатних станів." %}
+                    <h3 class="card-title">{% trans "Металургія та важке машинобудування" %}</h3>
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Задачі" %}:</span>
+                        {% trans "Охолодження технологічних рідин та утилізація тепла в умовах безперервного виробництва." %}
+                    </p>
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Наші рішення" %}:</span>
+                        {% trans "Системи охолодження гартувальних рідин, гідравлічних олив та емульсій на прокатних станах (на базі пластинчастих апаратів), а також спеціалізовані зварні теплообмінники для охолодження газів і печей." %}
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">🧪</div>
+                <div class="card-content">
+                    <h3 class="card-title">{% trans "Хімічна промисловість" %}</h3>
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Задачі" %}:</span>
+                        {% trans "Безпечний теплообмін у процесах із леткими, токсичними або висококорозійними речовинами." %}
+                    </p>
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Наші рішення" %}:</span>
+                        {% trans "Повністю зварні теплообмінники (без еластомерних ущільнень) та апарати зі спеціальних сплавів (Hastelloy, титан) для реакторів і дистиляційних колон." %}
                     </p>
                 </div>
             </div>
@@ -213,23 +250,83 @@
             <div class="card">
                 <div class="card-image">🍼</div>
                 <div class="card-content">
-                    <h3 class="card-title">{% trans "Харчова промисловість" %}</h3>
-                    <p class="card-description">
-                        {% trans "Пастеризатори, охолоджувачі, випарники для молочної, пивної та інших галузей харчової промисловості." %}
+                    <h3 class="card-title">{% trans "Харчова та фармацевтична промисловість" %}</h3>
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Задачі" %}:</span>
+                        {% trans "Суворе дотримання санітарних норм (CIP-мийка) та робота з в'язкими продуктами." %}
                     </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-image">🚢</div>
-                <div class="card-content">
-                    <h3 class="card-title">{% trans "Морське обладнання" %}</h3>
-                    <p class="card-description">
-                        {% trans "Теплообмінники для суднових двигунів, опріснювальних установок, систем кондиціонування на морських платформах." %}
+                    <p class="card-description card-description--stacked">
+                        <span class="card-detail-label">{% trans "Наші рішення" %}:</span>
+                        {% trans "Розбірні пластинчасті пастеризатори для напоїв, а також кожухотрубні (трубчасті) теплообмінники для продуктів із високою в'язкістю. Використовується виключно санітарна нержавіюча сталь AISI 316L." %}
                     </p>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- Typical tasks we solve -->
+<section class="section section--muted">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">{% trans "Типові задачі, які ми вирішуємо" %}</h2>
+            <div class="section-underline"></div>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-content">
+                    <h3 class="card-title">{% trans "Заміна застарілого обладнання" %}</h3>
+                    <p class="card-description">
+                        {% trans "Підбір пластинчастих апаратів на заміну громіздким кожухотрубним теплообмінникам зі збереженням або збільшенням теплової потужності." %}
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3 class="card-title">{% trans "Розширення виробництва" %}</h3>
+                    <p class="card-description">
+                        {% trans "Інтеграція додаткових контурів охолодження/нагрівання в існуючі технологічні лінії без зупинки основного циклу." %}
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3 class="card-title">{% trans "Імпортозаміщення та сервіс" %}</h3>
+                    <p class="card-description">
+                        {% trans "Підбір аналогів для обладнання брендів, що пішли з ринку, розрахунок та постачання пакетів пластин і ущільнень для сервісного обслуговування." %}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technical capabilities -->
+<section class="section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">{% trans "Технічні можливості" %}</h2>
+            <div class="section-underline"></div>
+        </div>
+        <ul class="tech-capabilities">
+            <li class="tech-capabilities__item">
+                <span class="tech-capabilities__label">{% trans "Температура" %}:</span>
+                {% trans "від -30°C до +200°C (залежно від типу ущільнень: EPDM, NBR, Viton)." %}
+            </li>
+            <li class="tech-capabilities__item">
+                <span class="tech-capabilities__label">{% trans "Робочий тиск" %}:</span>
+                {% trans "до 25 бар." %}
+            </li>
+            <li class="tech-capabilities__item">
+                <span class="tech-capabilities__label">{% trans "Типи середовищ" %}:</span>
+                {% trans "Вода, пара, оливи, гліколі, агресивні хімічні розчини, харчові середовища." %}
+            </li>
+            <li class="tech-capabilities__item">
+                <span class="tech-capabilities__label">{% trans "Матеріали пластин" %}:</span>
+                {% trans "AISI 304, AISI 316L, Titan, SMO 254." %}
+            </li>
+        </ul>
     </div>
 </section>
 
