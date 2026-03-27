@@ -3,7 +3,7 @@
 
 {% block title %}{% trans "Про компанію - Adiabatic" %}{% endblock %}
 {% block og_title %}{% trans "Про компанію - Adiabatic" %}{% endblock %}
-{% block og_description %}{% trans "ТОВ \"Adiabatic\" - провідний постачальник енергетичного обладнання. 15+ років досвіду, 500+ проектів, європейські стандарти якості." %}{% endblock %}
+{% block og_description %}{% trans "ТОВ \"Adiabatic\" — інжинірингова компанія з рішеннями для теплообміну. Практичний досвід у важкій промисловості, точні розрахунки, прямий контакт без зайвої бюрократії." %}{% endblock %}
 
 {% block content %}
 <!-- Hero Section -->
@@ -32,62 +32,57 @@
     </div>
 </section>
 
-<!-- Mission Section -->
+<!-- About company section -->
 <section class="section">
     <div class="container">
         <div class="section-header">
-            <p class="section-subtitle">{% trans "Наша місія" %}</p>
-            <h2 class="section-title">
-                {% trans "Ефективні рішення для" %}
-                <span class="section-accent">{% trans "енергозбереження" %}</span>
-            </h2>
+            <h2 class="section-title">{% trans "Про компанію" %}</h2>
             <div class="section-underline"></div>
         </div>
 
         <div>
             <p>
                 {% blocktrans trimmed %}
-                ADIABATIC є сучасною динамічно розвиваючоюся компанією, яка прагне стати провідним постачальником
-                продуктів і рішень для організації процесів теплообміну та управління потоками.
+                Адіабатік — інжинірингова компанія, що спеціалізується на рішеннях для процесів теплообміну. Ми розуміємо, що у важкій промисловості значення мають лише точні розрахунки, дотримання ТЗ та графіків постачання.
                 {% endblocktrans %}
             </p>
             <p>
                 {% blocktrans trimmed %}
-                Ми розробляємо рішення в таких напрямках, як оптимізація використання енергії,
-                скорочення витрат підприємств на експлуатацію технологічних позицій, пов'язаних з процесами теплообміну,
-                а також по охороні навколишнього середовища.
+                Компанія створена командою практиків. За плечима – понад 10 років управління комплексними проектами у важкій промисловості. Ми зсередини знаємо, як влаштовані закупівлі та виробництво складного обладнання, як важливе пряме спілкування із замовником і як бюрократія гальмує модернізацію виробничих фондів
                 {% endblocktrans %}
             </p>
         </div>
     </div>
 </section>
 
-<!-- Statistics Section -->
+<!-- Team expertise stats -->
 <section class="section">
     <div class="container">
+        <div class="section-header">
+            <p class="section-subtitle">{% trans "Цифри експертизи команди" %}</p>
+            <div class="section-underline"></div>
+        </div>
         <div class="cards-grid">
             <div class="card">
-                <div>15+</div>
-                <h3>{% trans "Років досвіду" %}</h3>
-                <p>{% trans "У сфері енергетичного обладнання" %}</p>
+                <div>{% trans "> 10 років" %}</div>
+                <h3>{% trans "Досвід у важкій промисловості" %}</h3>
+                <p>{% trans "Практичний досвід керівництва в управлінні промисловими проектами." %}</p>
             </div>
 
             <div class="card">
-                <div>500+</div>
-                <h3>{% trans "Проектів" %}</h3>
-                <p>{% trans "Успішно реалізовано" %}</p>
+                <div>100%</div>
+                <h3>{% trans "Точність розрахунків" %}</h3>
+                <p>
+                    {% trans "Устаткування підбирається виключно на основі теплових та гідравлічних параметрів ваших робочих середовищ." %}
+                </p>
             </div>
 
             <div class="card">
-                <div>100+</div>
-                <h3>{% trans "Клієнтів" %}</h3>
-                <p>{% trans "Довіряють нам" %}</p>
-            </div>
-
-            <div class="card">
-                <div>24/7</div>
-                <h3>{% trans "Підтримка" %}</h3>
-                <p>{% trans "Технічна підтримка" %}</p>
+                <div>{% trans "0 днів" %}</div>
+                <h3>{% trans "Затримок через бюрократію" %}</h3>
+                <p>
+                    {% trans "Прямий контакт із керівництвом компанії на всіх етапах - від креслення до відвантаження." %}
+                </p>
             </div>
         </div>
     </div>
@@ -97,7 +92,7 @@
 <section class="section">
     <div class="container">
         <div class="section-header">
-            <p class="section-subtitle">{% trans "Наші цінності" %}</p>
+            <p class="section-subtitle">{% trans "Наші інженерні принципи" %}</p>
             <h2 class="section-title">
                 {% trans "Що нами" %}
                 <span class="section-accent">{% trans "керує" %}</span>
@@ -107,11 +102,11 @@
 
         <div class="cards-grid">
             <div class="card">
-                <div class="card-image">🏆</div>
+                <div class="card-image">⚙️</div>
                 <div class="card-content">
-                    <h3 class="card-title">{% trans "Якість" %}</h3>
+                    <h3 class="card-title">{% trans "Технічний прагматизм" %}</h3>
                     <p class="card-description">
-                        {% trans "Всі наші продукти відповідають європейським стандартам якості та безпеки. Ми використовуємо тільки сертифіковані матеріали та комплектуючі." %}
+                        {% trans "Ми не пропонуємо обладнання «із запасом», щоб збільшити кошторис. Кожну позицію обґрунтовано розрахунком." %}
                     </p>
                 </div>
             </div>
@@ -119,9 +114,9 @@
             <div class="card">
                 <div class="card-image">🤝</div>
                 <div class="card-content">
-                    <h3 class="card-title">{% trans "Надійність" %}</h3>
+                    <h3 class="card-title">{% trans "Прямий діалог" %}</h3>
                     <p class="card-description">
-                        {% trans "Довготривалі партнерські відносини з клієнтами базуються на взаємній довірі, дотриманні зобов'язань та прозорості у співпраці." %}
+                        {% trans "З вами працюють технічні фахівці та керівники, а не менеджери-скриптологи. Ми говоримо однією мовою." %}
                     </p>
                 </div>
             </div>
@@ -137,11 +132,11 @@
             </div>
 
             <div class="card">
-                <div class="card-image">⚡</div>
+                <div class="card-image">🏭</div>
                 <div class="card-content">
-                    <h3 class="card-title">{% trans "Ефективність" %}</h3>
+                    <h3 class="card-title">{% trans "Розуміння виробництва" %}</h3>
                     <p class="card-description">
-                        {% trans "Оптимізовані процеси виробництва дозволяють нам забезпечувати мінімальні терміни виготовлення та конкурентні ціни." %}
+                        {% trans "Ми розуміємо ціну зупинки технологічної лінії, тому поставляємо апарати, які точно стануть на посадкові місця та відпрацюють заявлений ресурс." %}
                     </p>
                 </div>
             </div>
@@ -152,16 +147,6 @@
                     <h3 class="card-title">{% trans "Екологічність" %}</h3>
                     <p class="card-description">
                         {% trans "Наше обладнання сприяє зменшенню споживання енергії та скороченню викидів шкідливих речовин в атмосферу." %}
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-image">👥</div>
-                <div class="card-content">
-                    <h3 class="card-title">{% trans "Команда" %}</h3>
-                    <p class="card-description">
-                        {% trans "Професійна команда досвідчених інженерів та фахівців забезпечує високий рівень технічної підтримки та сервісу." %}
                     </p>
                 </div>
             </div>
@@ -314,62 +299,6 @@
                     <h3 class="card-title">{% trans "Морське обладнання" %}</h3>
                     <p class="card-description">
                         {% trans "Теплообмінники для суднових двигунів, опріснювальних установок, систем кондиціонування на морських платформах." %}
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Team Section -->
-<section class="section">
-    <div class="container">
-        <div class="section-header">
-            <p class="section-subtitle">{% trans "Команда" %}</p>
-            <h2 class="section-title">
-                {% trans "Наші" %}
-                <span class="section-accent">{% trans "експерти" %}</span>
-            </h2>
-            <div class="section-underline"></div>
-        </div>
-
-        <div class="cards-grid">
-            <div class="card">
-                <div class="card-image">👨‍💼</div>
-                <div class="card-content">
-                    <h3 class="card-title">{% trans "Керівництво" %}</h3>
-                    <p class="card-description">
-                        {% trans "Досвідчені менеджери з багаторічним досвідом роботи у сфері промислового обладнання" %}
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-image">👨‍🔬</div>
-                <div class="card-content">
-                    <h3 class="card-title">{% trans "Інженери-конструктори" %}</h3>
-                    <p class="card-description">
-                        {% trans "Кваліфіковані інженери з проектування та розрахунку теплообмінного обладнання" %}
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-image">👨‍🔧</div>
-                <div class="card-content">
-                    <h3 class="card-title">{% trans "Технічні спеціалісти" %}</h3>
-                    <p class="card-description">
-                        {% trans "Досвідчені фахівці з монтажу, налаштування та сервісного обслуговування" %}
-                    </p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-image">👩‍💼</div>
-                <div class="card-content">
-                    <h3 class="card-title">{% trans "Відділ продажів" %}</h3>
-                    <p class="card-description">
-                        {% trans "Професійні менеджери з продажів, які допоможуть підібрати оптимальне рішення" %}
                     </p>
                 </div>
             </div>

@@ -849,7 +849,7 @@ msgid "Головна"
 msgstr ""
 
 #: pages/models.py:19 templates/base.html:101 templates/base.html:113
-#: templates/base.html:153 templates/base.html:232
+#: templates/base.html:153 templates/base.html:232 templates/pages/about.html:39
 msgid "Про компанію"
 msgstr ""
 
@@ -1325,7 +1325,10 @@ msgid "Про компанію - Adiabatic"
 msgstr ""
 
 #: templates/pages/about.html:6
-msgid "ТОВ \\"
+msgid ""
+"ТОВ \"Adiabatic\" — інжинірингова компанія з рішеннями для теплообміну. "
+"Практичний досвід у важкій промисловості, точні розрахунки, прямий контакт "
+"без зайвої бюрократії."
 msgstr ""
 
 #: templates/pages/about.html:13 templates/pages/blog.html:13
@@ -1343,138 +1346,125 @@ msgstr ""
 msgid "Розрахунок обладнання"
 msgstr ""
 
-#: templates/pages/about.html:39
-msgid "Наша місія"
-msgstr ""
-
-#: templates/pages/about.html:41
-msgid "Ефективні рішення для"
-msgstr ""
-
-#: templates/pages/about.html:42
-msgid "енергозбереження"
-msgstr ""
-
-#: templates/pages/about.html:49
+#: templates/pages/about.html:45
 msgid ""
-"ADIABATIC є сучасною динамічно розвиваючоюся компанією, яка прагне стати "
-"провідним постачальником продуктів і рішень для організації процесів "
-"теплообміну та управління потоками."
+"Адіабатік — інжинірингова компанія, що спеціалізується на рішеннях для "
+"процесів теплообміну. Ми розуміємо, що у важкій промисловості значення мають "
+"лише точні розрахунки, дотримання ТЗ та графіків постачання."
 msgstr ""
 
-#: templates/pages/about.html:55
+#: templates/pages/about.html:50
 msgid ""
-"Ми розробляємо рішення в таких напрямках, як оптимізація використання "
-"енергії, скорочення витрат підприємств на експлуатацію технологічних "
-"позицій, пов'язаних з процесами теплообміну, а також по охороні "
-"навколишнього середовища."
+"Компанія створена командою практиків. За плечима – понад 10 років управління "
+"комплексними проектами у важкій промисловості. Ми зсередини знаємо, як "
+"влаштовані закупівлі та виробництво складного обладнання, як важливе пряме "
+"спілкування із замовником і як бюрократія гальмує модернізацію виробничих "
+"фондів"
 msgstr ""
 
-#: templates/pages/about.html:71
-msgid "Років досвіду"
+#: templates/pages/about.html:62
+msgid "Цифри експертизи команди"
 msgstr ""
 
-#: templates/pages/about.html:72
-msgid "У сфері енергетичного обладнання"
+#: templates/pages/about.html:67
+msgid "> 10 років"
 msgstr ""
 
-#: templates/pages/about.html:77
-msgid "Проектів"
+#: templates/pages/about.html:68
+msgid "Досвід у важкій промисловості"
 msgstr ""
 
-#: templates/pages/about.html:78
-msgid "Успішно реалізовано"
+#: templates/pages/about.html:69
+msgid "Практичний досвід керівництва в управлінні промисловими проектами."
 msgstr ""
 
-#: templates/pages/about.html:83
-msgid "Клієнтів"
+#: templates/pages/about.html:74
+msgid "Точність розрахунків"
+msgstr ""
+
+#: templates/pages/about.html:76
+msgid ""
+"Устаткування підбирається виключно на основі теплових та гідравлічних "
+"параметрів ваших робочих середовищ."
+msgstr ""
+
+#: templates/pages/about.html:81
+msgid "0 днів"
+msgstr ""
+
+#: templates/pages/about.html:82
+msgid "Затримок через бюрократію"
 msgstr ""
 
 #: templates/pages/about.html:84
-msgid "Довіряють нам"
+msgid ""
+"Прямий контакт із керівництвом компанії на всіх етапах - від креслення до "
+"відвантаження."
 msgstr ""
 
-#: templates/pages/about.html:89
-msgid "Підтримка"
+#: templates/pages/about.html:95
+msgid "Наші інженерні принципи"
 msgstr ""
 
-#: templates/pages/about.html:90 templates/pages/partners.html:139
-msgid "Технічна підтримка"
-msgstr ""
-
-#: templates/pages/about.html:100
-msgid "Наші цінності"
-msgstr ""
-
-#: templates/pages/about.html:102
+#: templates/pages/about.html:97
 msgid "Що нами"
 msgstr ""
 
-#: templates/pages/about.html:103
+#: templates/pages/about.html:98
 msgid "керує"
 msgstr ""
 
-#: templates/pages/about.html:112
-msgid "Якість"
+#: templates/pages/about.html:107
+msgid "Технічний прагматизм"
 msgstr ""
 
-#: templates/pages/about.html:114
+#: templates/pages/about.html:109
 msgid ""
-"Всі наші продукти відповідають європейським стандартам якості та безпеки. Ми "
-"використовуємо тільки сертифіковані матеріали та комплектуючі."
+"Ми не пропонуємо обладнання «із запасом», щоб збільшити кошторис. Кожну "
+"позицію обґрунтовано розрахунком."
 msgstr ""
 
-#: templates/pages/about.html:122
-msgid "Надійність"
+#: templates/pages/about.html:117
+msgid "Прямий діалог"
 msgstr ""
 
-#: templates/pages/about.html:124
+#: templates/pages/about.html:119
 msgid ""
-"Довготривалі партнерські відносини з клієнтами базуються на взаємній довірі, "
-"дотриманні зобов'язань та прозорості у співпраці."
+"З вами працюють технічні фахівці та керівники, а не менеджери-скриптологи. Ми "
+"говоримо однією мовою."
 msgstr ""
 
-#: templates/pages/about.html:132
+#: templates/pages/about.html:127
 msgid "Інновації"
 msgstr ""
 
-#: templates/pages/about.html:134
+#: templates/pages/about.html:129
 msgid ""
 "Ми постійно впроваджуємо нові технології та рішення для підвищення "
 "ефективності та енергозбереження нашого обладнання."
 msgstr ""
 
-#: templates/pages/about.html:142
-msgid "Ефективність"
+#: templates/pages/about.html:137
+msgid "Розуміння виробництва"
 msgstr ""
 
-#: templates/pages/about.html:144
+#: templates/pages/about.html:139
 msgid ""
-"Оптимізовані процеси виробництва дозволяють нам забезпечувати мінімальні "
-"терміни виготовлення та конкурентні ціни."
+"Ми розуміємо ціну зупинки технологічної лінії, тому поставляємо апарати, які "
+"точно стануть на посадкові місця та відпрацюють заявлений ресурс."
 msgstr ""
 
-#: templates/pages/about.html:152
+#: templates/pages/about.html:147
 msgid "Екологічність"
 msgstr ""
 
-#: templates/pages/about.html:154
+#: templates/pages/about.html:149
 msgid ""
 "Наше обладнання сприяє зменшенню споживання енергії та скороченню викидів "
 "шкідливих речовин в атмосферу."
 msgstr ""
 
-#: templates/pages/about.html:162 templates/pages/about.html:328
-msgid "Команда"
-msgstr ""
-
-#: templates/pages/about.html:164
-msgid ""
-"Професійна команда досвідчених інженерів та фахівців забезпечує високий "
-"рівень технічної підтримки та сервісу."
-msgstr ""
-
-#: templates/pages/about.html:176
+#: templates/pages/about.html:161
 msgid "Послуги"
 msgstr ""
 
@@ -1536,7 +1526,11 @@ msgid ""
 "дотриманням всіх технічних вимог."
 msgstr ""
 
-#: templates/pages/about.html:240
+#: templates/pages/about.html:223
+msgid "Сервіс"
+msgstr ""
+
+#: templates/pages/about.html:225
 msgid ""
 "Повне сервісне обслуговування, планові ТО, ремонт та модернізація існуючого "
 "обладнання протягом всього терміну експлуатації."
